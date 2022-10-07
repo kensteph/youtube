@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Welcome to Youtube</title>
+  </head>
+  <body>
+    <nav class="navBar">
+      <div class="blocs">
+        <div class="bloc1">
+          <i class="fa fa-bars" id="menuIcon"></i>
+          <img width="100" class="logo" src="./img/logo.png" alt="" />
+        </div>
+        <div class="bloc2">
+          <div class="searchInput">
+            <input type="text" placeholder="Search" />
+            <i class="fa fa-search" id="searchIcon"></i>
+            <div class="microphone"><i class="fa fa-microphone"></i></div>
+          </div>
+        </div>
+
+        <div class="bloc3">
+          <i class="fa fa-camera" id="videoIcon"></i>
+          <i class="fa fa-bell" id="bellIcon"></i>
+          <img
+            width="25"
+            height="25"
+            class="avatar"
+            src="./img/avatar-1.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </nav>
+
+    <div class="content">
+      <div class="video">
+        <iframe
+          class="videoPlayer"
+          src="https://www.youtube.com/embed/7M-kc57L3Ic"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <div class="videoDetails">
+          <span class="title"
+            >Vinicius Jr Showboating Skills Vs Shakhtar Donetsk</span
+          >
+          <div class="moreDetails">
+            <div class="desc">
+              <span class="descTitle"
+                >40,089 views Oct 6, 2022 Real Madrid vs shakhtar Donetsk 2-1
+                Extended Highlights & All Goals 2022...</span
+              >
+              <span class="moreLink">more</span>
+            </div>
+            <div class="buttons">
+              <div class="buttonItem">
+                <i class="fa fa-thumbs-up"></i><span>2500</span>
+              </div>
+              <div class="buttonItem">
+                <i class="fa fa-thumbs-down"></i><span>Dislike</span>
+              </div>
+              <div class="buttonItem">
+                <i class="fa fa-share"></i><span>Share</span>
+              </div>
+              <div class="buttonItem">
+                <i class="fa fa-scissors"></i><span>Clip</span>
+              </div>
+              <div class="buttonItem">
+                <i class="fa fa-list"></i><span>Save</span>
+              </div>
+              <span class="moreLink">...</span>
+            </div>
+          </div>
+          <div class="subscribeComment">
+            <div class="sec1">
+              <div class="subscribe">
+                <div class="divImg">
+                  <img
+                    width="25"
+                    height="25"
+                    class="avatar"
+                    src="./img/avatar.jfif"
+                    alt=""
+                    class="ownerAvatar"
+                  />
+                </div>
+                <div class="ownerDetails">
+                    <span>Toby Football HD</span>
+                    <span>38K subscribers</span>
+                </div>
+              </div>
+              <button class="subscBtn">SUBSCRIBE</button>
+            </div>
+            <div class="sec2">
+              <div class="subscribe">
+                <div class="commentDetails">
+                    <span>Comments</span>
+                    <span>29</span>
+                </div>
+                <div >
+                  <img
+                    width="10"
+                    height="10"
+                    class="avatarComment"
+                    src="./img/avatar.jfif"
+                    alt=""
+                  />
+                </div>
+                <div class="selectedComment">
+                    <span>mark my words, in the next 1 or 2 years Vini will reach his prime, and he will easliy get the Golden Ball !!!! Hala Madrid !!!!</span>
+                </div>
+              </div>
+              <i class="fa fa-arrow-right"></i>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="playlist">
+        <div class="pCategory">
+          <i class="fa fa-arrow-left" id="lArrow"></i>
+          <div class="category">All</div>
+          <div class="category">Real Madrid CF</div>
+          <i class="fa fa-arrow-right" id="rArrow"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

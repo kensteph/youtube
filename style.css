@@ -303,6 +303,7 @@ font-weight: 500;
 }
 .cActions >i{
   color: lightgray;
+  cursor: pointer;
 }
 .cActions >span{
   cursor: pointer;

@@ -247,6 +247,70 @@ body {
   cursor: pointer;
 }
 
+/* COMMENT */
+.comment-section{
+  gap:20px
+}
+.sortBloc {
+  margin-top: 20px;
+}
+
+.comments {
+  margin-top: 20px;
+}
+.addComment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  /* background-color: aquamarine; */
+}
+.commentField {
+  flex: 3;
+  /* background-color: antiquewhite; */
+  padding-right: 10px;
+}
+.inputComment {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  background-color: #f8f5f5;
+}
+
+.userComments{
+  margin-top: 20px;
+}
+.singleComment{
+  display: flex;
+}
+.textComment{
+  margin-left: 10px;
+}
+.user :nth-child(1){
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+.user :nth-child(2){
+  font-size: 12px;
+  }
+.cActions{
+  display: flex;
+  margin-left: 45px;
+  margin-top: 10px;
+  gap:20px;
+}
+.cActions >i{
+  color: lightgray;
+}
+.cActions >span{
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(146, 143, 143);
+}
+
+
 /* STYLE PLAYLIST */
 .playlist {
   flex: 3;
@@ -288,10 +352,10 @@ body {
 .pTitle {
   font-size: 13px;
   font-weight: bold;
-  white-space: nowrap; 
-  width: 250px; 
+  white-space: nowrap;
+  width: 250px;
   overflow: hidden;
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;
   /* border: 1px solid #000000; */
 }
 .thumbImg {
